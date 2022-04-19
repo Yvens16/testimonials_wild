@@ -1,0 +1,67 @@
+
+* {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+
+.purple {
+  background-color: hsl(263, 55%, 52%);
+}
+
+
+.grey {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.pding {
+  padding: 32px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.profile {
+  width: 70%;
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.name {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.title {
+  color: hsl(0, 0%, 81%);
+  font-size: 12px;
+}
+h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+
+p {
+  color: hsl(0, 0%, 81%);
+  font-weight: 500;
+
+}
+
+.description {
+  font-size: 14px;
+  line-height: 22px;
+}
