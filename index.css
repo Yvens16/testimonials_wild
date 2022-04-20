@@ -2,6 +2,10 @@
 * {
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
+body {
+  background: hsl(0, 0%, 81%);
+  height: 900px;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -9,10 +13,57 @@
   width: 90%;
   margin: 30px auto;
 }
+.quote {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 0;
+}
+
+/* @media only screen and (min-width: 1440px) {
+  flex: row;
+} */
+
+@media(min-width: 1440px) {
+  .container {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .container_left {
+    flex: 0 1 80%;
+    margin: 20px;
+  }
+  .bottom_right {
+    flex: 0 1 20%;
+    margin: 20px;
+  }
+
+  .top {
+    display: flex;
+  }
+  .purple {
+    margin-right: 20px;
+  }
+  .top_left {
+    height: 50%;
+  }
+  .bottom {
+    display: flex;
+    height: 50%;
+  }
+  .white {
+    margin-right: 20px;
+  }
+
+}
 
 
 .purple {
   background-color: hsl(263, 55%, 52%);
+  position: relative;
 }
 
 
@@ -64,4 +115,20 @@ p {
 .description {
   font-size: 14px;
   line-height: 22px;
+}
+.bl {
+  color: hsl(219, 29%, 14%);
+}
+.deep_blue {
+  background: hsl(219, 29%, 14%);
+}
+
+.white {
+  background: white;
+}
+
+@media(min-width: 1440px) {
+ /*
+  Toutes vos proriétées
+ */ 
 }
